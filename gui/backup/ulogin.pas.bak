@@ -1,4 +1,4 @@
-unit uMain;
+unit uLogin;
 
 {$mode objfpc}{$H+}
 
@@ -8,7 +8,7 @@ uses
   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs;
 
 type
-  TMain = class(TForm)
+  TForm1 = class(TForm)
   private
     { private declarations }
   public
@@ -16,7 +16,7 @@ type
   end;
 
 var
-  Main: TMain;
+  Form1: TForm1;
 
 implementation
 

@@ -1,8 +1,8 @@
-object Form1: TForm1
-  Left = 301
-  Height = 240
-  Top = 147
-  Width = 320
-  Caption = 'Form1'
+object Main: TMain
+  Left = 344
+  Height = 401
+  Top = 136
+  Width = 524
+  Caption = 'Program başlığı'
   LCLVersion = '1.6.0.4'
 end
