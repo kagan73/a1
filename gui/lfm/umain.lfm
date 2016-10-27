@@ -1,0 +1,8 @@
+object Main: TMain
+  Left = 234
+  Height = 401
+  Top = 130
+  Width = 524
+  Caption = 'Program başlığı'
+  LCLVersion = '1.6.0.4'
+end
