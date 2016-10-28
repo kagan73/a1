@@ -13,7 +13,6 @@ type
   { TMain }
 
   TMain = class(TForm)
-    BitBtn1: TBitBtn;
     Button1: TButton;
     Label1: TLabel;
     pMsgBox: TPanel;
