@@ -73,6 +73,7 @@ object Login: TLogin
       Width = 75
       Align = alLeft
       Caption = 'Tamam'
+      OnClick = Button1Click
       TabOrder = 0
     end
     object Button2: TButton

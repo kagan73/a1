@@ -19,6 +19,7 @@ type
     LabeledEdit1: TLabeledEdit;
     LabeledEdit2: TLabeledEdit;
     pBottom: TPanel;
+    procedure Button1Click(Sender: TObject);
   private
     { private declarations }
   public
@@ -31,6 +32,13 @@ var
 implementation
 
 {$R *.lfm}
+
+{ TLogin }
+
+procedure TLogin.Button1Click(Sender: TObject);
+begin
+
+end;
 
 end.
 

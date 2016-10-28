@@ -1,0 +1,54 @@
+unit uMain;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, Menus,
+  ExtCtrls, StdCtrls;
+
+type
+
+  { TMain }
+
+  TMain = class(TForm)
+    Button1: TButton;
+    Label1: TLabel;
+    pMsgBox: TPanel;
+    procedure Button1Click(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+  private
+    { private declarations }
+  public
+    { public declarations }
+    procedure ShowMsgBox(Amsg:string);
+  end;
+
+var
+  Main: TMain;
+
+implementation
+
+{$R *.lfm}
+
+{ TMain }
+
+procedure TMain.FormCreate(Sender: TObject);
+begin
+
+end;
+
+procedure TMain.Button1Click(Sender: TObject);
+begin
+  self.ShowMsgBox('Programı kullanmak için henüz erken');
+end;
+
+procedure TMain.ShowMsgBox(Amsg: string);
+begin
+  Label1.Caption:=Amsg;
+  pMsgBox.Show;
+end;
+
+end.
+

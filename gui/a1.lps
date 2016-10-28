@@ -7,7 +7,6 @@
       <Unit0>
         <Filename Value="a1.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
         <CursorPos X="16" Y="11"/>
         <UsageCount Value="20"/>
@@ -20,9 +19,12 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uMain"/>
-        <CursorPos X="15" Y="10"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="33"/>
+        <CursorPos X="56" Y="44"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="lfm/ulogin.pas"/>
@@ -32,9 +34,11 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uLogin"/>
         <EditorIndex Value="1"/>
-        <CursorPos X="11" Y="14"/>
+        <TopLine Value="23"/>
+        <CursorPos X="3" Y="40"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit2>
       <Unit3>
         <Filename Value="umain.pas"/>
@@ -81,11 +85,39 @@
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit7>
     </Units>
-    <JumpHistory Count="1">
+    <JumpHistory Count="8" HistoryIndex="7">
       <Position1>
         <Filename Value="a1.lpr"/>
         <Caret Line="10" Column="8"/>
       </Position1>
+      <Position2>
+        <Filename Value="lfm/umain.pas"/>
+        <Caret Line="10" Column="15"/>
+      </Position2>
+      <Position3>
+        <Filename Value="lfm/umain.pas"/>
+        <Caret Line="11" Column="15"/>
+      </Position3>
+      <Position4>
+        <Filename Value="lfm/umain.pas"/>
+        <Caret Line="22" Column="15" TopLine="12"/>
+      </Position4>
+      <Position5>
+        <Filename Value="lfm/umain.pas"/>
+        <Caret Line="41" Column="3" TopLine="24"/>
+      </Position5>
+      <Position6>
+        <Filename Value="lfm/ulogin.pas"/>
+        <Caret Line="14" Column="11"/>
+      </Position6>
+      <Position7>
+        <Filename Value="lfm/umain.pas"/>
+        <Caret Line="42" Column="23" TopLine="25"/>
+      </Position7>
+      <Position8>
+        <Filename Value="lfm/umain.pas"/>
+        <Caret Line="49" Column="23" TopLine="28"/>
+      </Position8>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>
