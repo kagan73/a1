@@ -14,12 +14,12 @@ type
 
   TMain = class(TForm)
     Button1: TButton;
-    Label1: TLabel;
+    lbMsg: TLabel;
     pMsgBox: TPanel;
-    SpeedButton1: TSpeedButton;
+    btCloseMsgBox: TSpeedButton;
     procedure Button1Click(Sender: TObject);
     procedure FormCreate(Sender: TObject);
-    procedure SpeedButton1Click(Sender: TObject);
+    procedure btCloseMsgBoxClick(Sender: TObject);
   private
     { private declarations }
   public
@@ -41,7 +41,7 @@ begin
 
 end;
 
-procedure TMain.SpeedButton1Click(Sender: TObject);
+procedure TMain.btCloseMsgBoxClick(Sender: TObject);
 begin
   pMsgBox.Hide;
 end;
@@ -53,7 +53,7 @@ end;
 
 procedure TMain.ShowMsgBox(Amsg: string);
 begin
-  Label1.Caption:=Amsg;
+  lbMsg.Caption:=Amsg;
   pMsgBox.Show;
 end;
 

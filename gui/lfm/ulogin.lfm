@@ -1,10 +1,11 @@
 object Login: TLogin
   Left = 584
-  Height = 198
+  Height = 190
   Top = 143
   Width = 320
+  ActiveControl = LabeledEdit1
   Caption = 'Giriş Yap'
-  ClientHeight = 198
+  ClientHeight = 190
   ClientWidth = 320
   LCLVersion = '1.6.0.4'
   object GroupBox1: TGroupBox
@@ -60,7 +61,7 @@ object Login: TLogin
   object pBottom: TPanel
     Left = 0
     Height = 35
-    Top = 163
+    Top = 155
     Width = 320
     Align = alBottom
     ClientHeight = 35
