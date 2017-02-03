@@ -7,3 +7,4 @@ Açık kaynak kodlu Muhasebe programı masa üstü uygulaması
 - Hesap Oluşturma ve düzenleme işlemleri
 - Hesaplara işlem oluşturma ve düzenleme
 - Raporlar
+- eposta Gönderimi
